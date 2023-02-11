@@ -1,13 +1,5 @@
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
-
-/* 
-    Body, button, comment-thread, and utilities
-
-    Notes:
-        - This section sets some basic styles. You can ignore this part and 
-        go directly to the comment styles.
-*/
+.comment-author { font-size: 16px; text-align: center; }
+.comment-author a { color: hsl(228, 45%, 44%); }
 
 * {
     box-sizing: border-box;
@@ -95,5 +87,5 @@ button:active {
     text-decoration: underline;
 }
 .replies {
-    margin-left: 20px;
+    margin-left: 60px;
 }
