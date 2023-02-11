@@ -31,8 +31,8 @@ button:active {
     margin: auto;
     padding: 0 30px;
     background-color: #fff;
-    border: 1px solid transparent; /* Removes margin collapse */
 }
+
 .m-0 {
     margin: 0;
 }
@@ -59,6 +59,7 @@ button:active {
     height: 50px;
     font-size: 14px;
 }
+
 .comment-voting {
     width: 20px;
     height: 32px;
