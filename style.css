@@ -1,13 +1,14 @@
 * {
     box-sizing: border-box;
 }
+
 body {
     font-family: 'Rubik', sans-serif;
     line-height: 1.4;
     color: rgba(0, 0, 0, 0.85);
     background-color: #f9f9f9;
-
 }
+
 button {
     -moz-appearance: none;
     -webkit-appearance: none;
@@ -19,12 +20,14 @@ button {
     border: 1px solid rgba(0, 0, 0, 0.2);
     border-radius: 4px;
 }
+
 button:hover,
 button:focus,
 button:active {
     cursor: pointer;
     background-color: #ecf0f1;
 }
+
 .comment-thread {
     width: 700px;
     max-width: 100%;
@@ -36,6 +39,7 @@ button:active {
 .m-0 {
     margin: 0;
 }
+
 .sr-only {
     position: absolute;
     left: -10000px;
@@ -82,7 +86,6 @@ button:active {
     align-items: center; 
 }
 
-
 .comment-info img {
     margin-right: 10px;
 }
@@ -96,14 +99,19 @@ button:active {
     font-weight: bold;
     text-decoration: none;
 }
+
 .comment-author:hover {
     text-decoration: underline;
 }
+
 .replies {
     margin-left: 60px;
 }
 
-.comment-author { font-size: 16px; text-align: center; }
+.comment-author { 
+    font-size: 16px; 
+    text-align: center; 
+}
 
 #replyTo, #reply-button, #edit-button {
     color: hsl(228, 45%, 44%);
@@ -125,8 +133,6 @@ img {
     font-size: 12px;    
     font-weight: 600;
 }
-
-
 
 .comment-form {
     display: flex;
