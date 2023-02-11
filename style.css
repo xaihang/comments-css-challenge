@@ -105,8 +105,12 @@ button:active {
 
 .comment-author { font-size: 16px; text-align: center; }
 
-#replyTo {
+#replyTo, #reply-button, #edit-button {
     color: hsl(228, 45%, 44%);
+}
+
+#delete-button {
+    color: red;
 }
 
 img {
