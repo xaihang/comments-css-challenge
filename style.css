@@ -106,3 +106,7 @@ button:active {
 #replyTo {
     color: hsl(228, 45%, 44%);
 }
+
+img {
+    width: 35px;
+}
