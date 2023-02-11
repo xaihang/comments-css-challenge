@@ -74,7 +74,20 @@ button:active {
 .comment-info {
     color: rgba(0, 0, 0, 0.5);
     margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
 }
+
+
+.comment-info img {
+    margin-right: 10px;
+}
+
+.comment-info p {
+    margin-left: 10px;
+}
+
 .comment-author {
     color: rgba(0, 0, 0, 0.85);
     font-weight: bold;
