@@ -11,23 +11,24 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 
   <title>CSS Challenge | Interactive comments section</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
+  <!-- <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
-</head>
+</head> -->
 <body>
 
-  <!-- Comment #1 -->
+  <!-- Comment #1
   12
   <img src="./images/avatars/image-amyrobson.png" alt="profile" />
   amyrobson 
   1 month ago
-  Impressive! Though it seems the drag feature could be improved. But overall it looks incredible. You've nailed the design and the responsiveness at various breakpoints works really well.
+  Impressive! Though it seems the drag feature could be improved. But overall it looks incredible. You've nailed the design and the responsiveness at various breakpoints works really well. -->
 
   <!-- Comment #2 -->
   5
@@ -50,11 +51,73 @@
   2 days ago
   @ramsesmiron I couldn't agree more with this. Everything moves so fast and it always seems like everyone knows the newest library/framework. But the fundamentals are what stay constant.
 
+<!-- ======================================================= -->
 
-  
-  <div class="attribution">
-    Challenge adapted from <a href="https://www.frontendmentor.io/challenges/interactive-comments-section-iG1RugEG9" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+<div class="comment-thread">
+  <!-- Comment 1 start -->
+  <div class="comment" id="comment-1">
+      <div class="comment-heading">
+          <div class="comment-voting">
+              <button type="button">
+                  <span aria-hidden="true">&#9650;</span>
+                  <span class="sr-only">Vote up</span>
+              </button>
+              <button type="button">
+                  <span aria-hidden="true">&#9660;</span>
+                  <span class="sr-only">Vote down</span>
+              </button>
+          </div>
+          <div class="comment-info">
+            <img src="./images/avatars/image-amyrobson.png" alt="profile" />
+              <a href="#" class="comment-author">amyrobson</a>
+              <p class="m-0">
+                  12 points &bull; 1 month ago
+              </p>
+          </div>
+      </div>
+
+      <div class="comment-body">
+          <p>
+            Impressive! Though it seems the drag feature could be improved. But overall it looks incredible. You've nailed the design and the responsiveness at various breakpoints works really well.
+          </p>
+          <button type="button">Reply</button>
+          <button type="button">Flag</button>
+      </div>
+
+
+<!-- Comment 2 start -->
+<div class="comment" id="comment-1">
+  <div class="comment-heading">
+      <div class="comment-voting">
+          <button type="button">
+              <span aria-hidden="true">&#9650;</span>
+              <span class="sr-only">Vote up</span>
+          </button>
+          <button type="button">
+              <span aria-hidden="true">&#9660;</span>
+              <span class="sr-only">Vote down</span>
+          </button>
+      </div>
+      <div class="comment-info">
+
+        <img src="./images/avatars/image-maxblagun.png" alt="profile" />
+          <a href="#" class="comment-author">maxblagun</a>
+          <p class="m-0">
+              5 points &bull; 2 weeks ago
+          </p>
+      </div>
   </div>
+
+  <div class="comment-body">
+      <p>
+        If you're still new, I'd recommend focusing on the fundamentals of HTML, CSS, and JS before considering React. It's very tempting to jump ahead but lay a solid foundation first.
+      </p>
+      <button type="button">Reply</button>
+      <button type="button">Flag</button>
+  </div>
+
+
+
+
 </body>
 </html>
